@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+      "target": "es2017",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "sourceMap": true,
+      "removeComments": true,
+      "noImplicitAny": false,
+      "preserveConstEnums": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "typeRoots": [
+          "node_modules/@types",
+          "typings"
+      ]
+  },
+  "compileOnSave": false,
+  "include": [
+      "./src/***/*",
+  ],
+  "exclude": [
+      "node_modules",
+      "dist"
+  ]
+}
